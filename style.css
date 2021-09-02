@@ -1,0 +1,92 @@
+body {
+    font-family: "Bungee";
+    text-align: center;
+}
+
+header {
+    margin: auto;
+}
+
+#left {
+    margin-right: auto;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 90%;
+    height: 10em;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+}
+
+li {
+    font-size: 24px;
+    align-items: center;
+    display: flex;
+    /* margin: auto; */
+    padding: 20px;
+    float: right;
+    
+}
+
+section {
+    margin: auto 2em;
+}
+
+#about {
+    width: 40em;
+    display: inline-block;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.border {
+    display: inline-block;
+    border-style: solid;
+    border-width: 5px;
+    width: 20em;
+    height: 25em; 
+    border-color: #7944e6;
+    margin-top: 2em;
+    margin-bottom: 2em; 
+}
+
+#ccc {
+    width: 10em;
+    height: 10em;
+}
+
+img {
+    object-fit: contain;
+    width: 20em;
+    height: 15em;
+}
+
+#one {
+    background-color:#ff00ff;
+    width: 90%;
+    margin: auto;
+}
+
+a {
+   color:#7944e6; 
+   text-decoration: none;
+   font-size: 20px;
+}
+
+a:hover {
+    color: #10fdff;
+}
+
+@media screen and (min-width: 768px) {
+    p {
+    font-size: 20px;
+    color: black;
+    }
+    .nav-link {
+    padding: 10px;
+    }
+    }
